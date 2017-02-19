@@ -1,0 +1,15 @@
+CC = gcc
+
+CFLAGS = -std=c99 -Wall -ggdb
+
+main.exe : main.o task.o io.o
+	$(CC) -o $@ $^
+
+time_memory.exe : time_memory.o dynamic.o
+	$(CC) -o $@ $^
+	
+%.o : %.c *.h
+	$(CC) $(CFLAGS) -c $< -gdwarf-3
+	
+clean :
+	rm *o *.exe
