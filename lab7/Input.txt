@@ -1,0 +1,74 @@
+and
+alternative to &&
+and_eq
+alternative to &=
+bitand
+alternative to &
+bitor
+alternative to |
+or
+alternative to ||
+not
+alternative to !
+xor
+alternative to ^
+xor_eq
+alternative to =^ 
+bool
+declaration of the boolean type
+int
+declaration of the integer type
+float
+declaration of the floating point type
+char
+declaration of the character type
+void
+declaration of void* type
+const
+declaration of the constant type qualifier
+usigned
+declaration of the unsigned type qualifier
+if
+declaration of the condition statement
+else
+declaration of the condition statement opposite to if statement
+switch
+declaration of the switch condition statement
+case
+declaration of the case label for switch condition statement
+class
+declaration of a class
+private
+private access specifier
+public
+public access specifier
+auto
+automatic storage duration specifier
+static
+static storage duration specifier
+extern
+extern storage duration specifier
+register
+processor register storage duration specifier
+struct
+declaration of structure
+do
+declaration of do-while loop
+while
+declaration of while loop
+for
+declaration of for loop
+break
+declaration of loop break statement
+continue
+declaration of loop continue statement
+new
+C++ memory allocation expression
+delete
+destroy a new-created non-array object expression
+return
+declaration of function return statement
+using
+directive for namespace
+namespace
+namespace declaration

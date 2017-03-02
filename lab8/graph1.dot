@@ -1,0 +1,22 @@
+digraph { 
+	rankdir=LR; 
+	1 -> 2;
+	1 -> 5;
+	1 -> 7;
+	2 -> 1;
+	2 -> 6;
+	3 -> 5;
+	4 -> 6;
+	4 -> 7;
+	5 -> 1;
+	5 -> 3;
+	5 -> 7;
+	6 -> 2;
+	6 -> 4;
+	7 -> 1;
+	7 -> 4;
+	7 -> 5;
+	7 -> 7;
+	9 -> 10;
+	10 -> 9;
+	1 -> 2[color=red,penwidth=3.0];	2 -> 6[color=red,penwidth=3.0];	6 -> 4[color=red,penwidth=3.0];	4 -> 7[color=red,penwidth=3.0];	7 -> 5[color=red,penwidth=3.0];	5 -> 3[color=red,penwidth=3.0];}
